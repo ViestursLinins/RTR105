@@ -1,6 +1,6 @@
 # RTR105
 Studiju kursa Datormācība elektroniskā klade
 
-##Pirmās nodarbības atziņas
+## Pirmās nodarbības atziņas
 
-###GitHub ir reāli kaitinošs
+### GitHub ir reāli kaitinošs
