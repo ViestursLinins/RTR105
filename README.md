@@ -13,3 +13,7 @@ Studiju kursa Datormācība elektroniskā klade
 
 <sup>Superskripts</sup> un <sub>apakšskripts</sub> 
 
+>komentārs ar <sub> Jā! </sub>
+
+
+
