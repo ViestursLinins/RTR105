@@ -13,7 +13,17 @@ Studiju kursa Datormācība elektroniskā klade
 
 <sup>Superskripts</sup> un <sub>apakšskripts</sub> 
 
->komentārs ar <sub> Jā! </sub>
+>komentārs ar <sub> Jā! </sub>  * ***un*** * <sup> Nē!</sup>
+
+Sāksim ar Git komandām, lai mēs varētu ātrāk visu apgūt
+
+GitHUb pamata komandas :
+
+Izmanto **Git status ** , lai uzzinātu par par visiem **failiem** kuri šobrīd tiek rediģēti vai ir izveidoti pa jaunu, bet nav * *Kommitoti* *
+
+
+
+
 
 
 
