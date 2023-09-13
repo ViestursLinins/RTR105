@@ -186,3 +186,4 @@
   186  sort --help 
   187  history
   188  history > history_202309130916_Class01_Viesturs.txt
+  189  history > history_202309130916_Class01_Viesturs2.txt

@@ -79,7 +79,7 @@
    79  man echo
    80  echo dkhsjdkfghkjsdhf \ sdfgbsdhbfvkjswfvb
    81  echo sdljnljsdhf /n eafhkajsdfbh
-   82  echo sdljnljsdhf \n eafhkajsdfbh
+   82* 
    83  touch c/txty
    84  touch c.txt
    85  ls -lt *.txt
@@ -99,90 +99,3 @@
    99  ls -lt
   100  history
   101  history > history20230913929_Class01_Viesturs.txt
-  102  nano history20230913929_Class01_Viesturs.txt 
-  103  man rm
-  104  rm -v !("history20230913929_Class01_Viesturs.txt") 
-  105  ls
-  106  man rm
-  107  ls -lt -d -- *[!0-9].txt
-  108  ls -lt -d -- *[0-9].txt
-  109  mkdir DEF
-  110  pwd
-  111  ls
-  112  nano hihi.dat
-  113  mv hihi.dat /home/user/DEF
-  114  ls
-  115  ls -lt DEF/
-  116  mv DEF/hihi.dat DEF/hihihi.dat
-  117  ls
-  118  cd DEF
-  119  ls
-  120  cd .
-  121  cd ..
-  122  ls
-  123  mv DEF/hihihi.dat DEF/hihihi.exe
-  124  rmdir DEF/
-  125  man rmdir
-  126  man rm
-  127  rm -r DEF/
-  128  ls\
-  129  ls
-  130  emacs
-  131  vim
-  132  ls
-  133  echo $PATH
-  134  whereis ls
-  135  ls -lt /bin/ls
-  136  cat -lt /bin/ls
-  137  cat  /bin/ls
-  138  clear
-  139  nano mana_komanda_1.sh
-  140  ls
-  141  cat mana_komanda_1.sh 
-  142  ls -lt /bin/ls
-  143  chmod 754 mana_komanda_1.sh 
-  144  ls
-  145  mana
-  146  pwd 
-  147  ls -lt
-  148  ./mana_komanda_1.sh 
-  149  chmod +x mana_komanda_1.sh \
-  150  ls
-  151  ls -lt
-  152  echo $PATH
-  153  PATH
-  154  PATH=$PATH:~/
-  155  echo PATH
-  156  echo $PATH
-  157  mana_komanda_1.sh 
-  158  mkdir TEST
-  159  cp mana_komanda_1.sh  TEST/
-  160  ls
-  161  ls -lt /TEST
-  162  ls -lt TEST
-  163  PATH=$PATH:~/TEST
-  164  nano TEST/mana
-  165  nano TEST/mana_komanda_1.sh 
-  166  ls TEST/mana_komanda_1.sh 
-  167  ls
-  168  cd TEST
-  169  ls
-  170  cd..
-  171  ls
-  172  cd ~
-  173  ls
-  174  history
-  175  sort -u
-  176  sort history | uniq
-  177  sort -u history | uniq
-  178  history | sort uniq
-  179  history | sort 
-  180  manb sort
-  181  man sort
-  182  history | sort -uc
-  183  history | sort -u
-  184  history | sort -c
-  185  man sort
-  186  sort --help 
-  187  history
-  188  history > history_202309130916_Class01_Viesturs.txt
