@@ -1,83 +1,87 @@
 #include<stdio.h>
 
-
 int main(){
-int a,b,c;
-int izvele; 
-printf("ievadiet 3CIPARU SKAITLI\n");
-scanf("%d",&a);
-scanf("%d",&b);
-scanf("%d",&c);
+char a,b,c;
+int izvele;
 
-printf("veiciet izveli  1  aug  2  dilst");
+printf("Ievadiet char skaitlus\n");
+scanf("%c",&a);
+scanf("%c",&b);
+scanf("%c",&c);
+int asci1=a;
+int asci2=b;
+int asci3=c;
+printf("ASCII vertiba %c = %d\n", a, asci1);
+printf("ASCII vertiba %c = %d\n", b, asci2);
+printf("ASCII vertiba %c = %d\n", c, asci3);
+printf("Izvelaties secibu 1-AUG 2-DILST==");
 scanf("%d",&izvele);
-if(izvele=1){
 
-        if(a>b&&a>c){printf("%d",a);
-        if(b>c&&b<=a){printf("%d",b);
-        if(c<b<a||c<=b){printf("%d",c);}
-}
-        else if(c>b&&c<=a){printf("%d",c);
-        if(b<c<a||b<=c){printf("%d",b);
-}
-}
-}
-}
-        else if(b>a&&b>c){                                                              
-        printf("%d",b);
-        if(a>c&&a<=b){printf("%d",a);
-        if(c<a<b||c<=a){printf("%d",b);}
-}
-        else if(c>a&&c<=b){printf("%d",c);
-        if(a<c<b||a<=c){printf("%d",a);
+switch(izvele){
+ case 1:
+	//a
+        printf("Vertibas asci konteksta %c=%d %c=%d %c=%d\n",a,asci1,b,asci2,c,asci3);
+        
+      if(asci1<asci2&&asci1<asci3){printf("%c=%d\n",a,asci1);
+      if(asci2<asci3||asci2==asci1){printf("%c=%d\n",b,asci2);
+      if(asci3>asci2&&asci3>asci1){printf("%c=%d\n",c,asci3);}}
+      /////abc
+      if(asci3<asci2||asci1==asci3){printf("%c=%d\n",c,asci3);
+      if(asci2>asci1&&asci2>asci3){printf("%c=%d\n",b,asci2);}}
+      }
+      if(asci1==asci2&&asci1==asci3){printf("%c=%d %c=%d %c=%d",a,asci1,b,asci2,c,asci3);}
+      
+      if(asci2<asci1&&asci2<asci3){printf("%c=%d\n",b,asci2);
+      if(asci1<asci3||asci1==asci2){printf("%c=%d\n",a,asci1);
+       if(asci3>asci2&&asci3>asci1){printf("%c=%d\n",c,asci3);}}
+     
+      //bac
+      if(asci3<asci1||asci3==asci2){printf("%c=%d\n",c,asci3);
+      if(asci1>asci2&&asci1>asci2){printf("%c=%d\n",a,asci1);}}
+      
+      }
+      
+      //if(asci3<asci2&&asci3<asci1){printf("%c=%d\n")}
+      //cab //cba
+      if(asci3<asci2&&asci3<asci1){printf("%c=%d\n",c,asci3);
+      if(asci2<asci3||asci2==asci3){printf("%c=%d\n",b,asci2);}
+      if(asci1>asci3&&asci1>asci2){printf("%c=%d\n",a,asci1);}
+      ///////
+      if(asci1<asci2||asci1==asci3){printf("%c=%d\n",a,asci1);}
+      if(asci2>asci3&&asci2>asci3){printf("%c=%d\n",b,asci2);}
+      }
+      break;
+      
+      case 2:
+      if(asci1==asci2&&asci1==asci3){printf("%c=%d %c=%d %c=%d",a,asci1,b,asci2,c,asci3);}
+      if(asci1>asci2&&asci1>asci3){printf("%c=%d\n",a,asci1);
+      if(asci2>asci3||asci2==asci1){printf("%c=%d\n",b,asci2);}
+      if(asci3<asci2&&asci3<asci1){printf("%c=%d\n",c,asci3);}
+      /////
+      if(asci3>asci2||asci3==asci1){printf("%c=%d\n",c,asci3);}
+      if(asci2<asci1&&asci2<asci3){printf("%c=%d\n",b,asci2);}
+      }
+      
+      //b
+      if(asci2>asci1&&asci2>asci3){printf("%c=%d\n",b,asci2);
+      if(asci1>asci3||asci1==asci3){printf("%c=%d\n",a,asci1);}
+      if(asci3<asci2&&asci3<asci1){printf("%c=%d\n",c,asci3);}
+      
+      if(asci3>asci1&&asci3==asci2){printf("%c=%d\n",c,asci3);}
+      if(asci1<asci2&&asci1<asci2){printf("%c=%d\n",a,asci1);}
+      } 
+      //c
+      if(asci3>asci1&&asci3>asci2){printf("%c=%d\n",c,asci3);
+      if(asci2>asci1||asci2==asci3){printf("%c=%d\n",b,asci2);}
+      if(asci1<asci3&&asci1<asci2){printf("%c=%d\n",a,asci1);}
+      
+      if(asci1>asci2||asci1==asci3){printf("%c=%d\n",a,asci1);}
+      if(asci2<asci3&&asci2<asci1){printf("%c=%d\n",b,asci2);}
+      }
+	break;
 
-}
-}
-}
 
-        else if(c>a&&c>b){printf("%d",c);
-                if(a>b&&a<=c){printf("%d",a);
-                if(b<a<c||b<=a){printf("%d",b);}
-                }
-        else if(b>a&&b<=c){printf("%d",b);
-                if(a<b<c||a<=b){printf("%d",a);}
-}
-}
-
-else if(izvele=2){
-        if(a<b&&a<c){printf("%d",a);
-        if(b<c&&b>=a){printf("%d",b);
-        if(c>b>a||c>=b){printf("%d",c);}
-}
-        else if(c>b&&c>=a){printf("%d",c);
-        if(b>c>a||b>=c){printf("%d",b);
-}
-
-}
-}
-}
-       if(b<a&&b<c){printf("%d",b);
-        if(a<c&&a>=b){printf("%d",a);
-        if(c>a>b||c>=b){printf("%d",c);}
-}
-        else if(c<b&&c<=a){printf("%d",c);
-        if(a>b<c||a>=b){printf("%d",a);
-}
-    
-}
-}
-
-       if(c<b&&c<a){printf("%d",c);
-        if(b<a&&b>=a){printf("%d",b);
-        if(a<b<c||a<=c){printf("%d",a);}
-}
-        else if(a<b&&a<=c){printf("%d",a);
-        if(b<a<c||b<=c){printf("%d",b);
-}
-
-}
-}
-
+}}
 else{printf("nekas nav izvelets");}
 }
 
