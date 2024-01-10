@@ -60,6 +60,7 @@ switch(izvele){
 	
 	case 3:
 	printf("Ar char vertibu nav iespejams faktorialis");
+	break;
 	
 	
 
