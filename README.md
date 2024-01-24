@@ -7,7 +7,7 @@ Teilora rindu sērijās mēs aplūkojam funkciju kuras atvasinājumi ir tiek izt
 Tātad aplūkojot pirmos divus atvasinājumus kuri ir iztekti no formulas:
 $cos\sqrt x$
 Pilnā formula šim izteikumam būs:
-\(cos\srt x=\(sum_{k=0}^500)\frac{(-1)^k*x^k}{(2*k)!}\)
+$cos\srt x$ =\(sum_{k=0}^500)\frac{(-1)^k*x^k}{(2*k)!}\)
 
 
 
