@@ -9,6 +9,9 @@ $cos\sqrt x$
 Pilnā formula šim izteikumam būs:
             
 $cos\sqrt x= \displaystyle\sum_{k=0}^{500} \frac{(-1)^k * x^k}{(2 * k)!} = 1-\frac{x}{2} + \frac{x^2}{24}-\frac{x^4}{720} +... -\infty < x < \infty $
+jeb
+$cos\sqrt x= \displaystyle\sum_{k=0}^{500} \frac{(-1)^k * x^k}{(2 * k)!} = 1-\frac{x}{2!} + \frac{x^2}{4!}-\frac{x^4}{6!} +... -\infty < x < \infty $
+
 
 
 
