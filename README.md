@@ -12,6 +12,9 @@ $cos\sqrt x= \displaystyle\sum_{k=0}^{500} \frac{(-1)^k * x^k}{(2 * k)!} = 1-\fr
 jeb
 $cos\sqrt x= \displaystyle\sum_{k=0}^{500} \frac{(-1)^k * x^k}{(2 * k)!} = 1-\frac{x}{2!} + \frac{x^2}{4!}-\frac{x^4}{6!} +... -\infty < x < \infty $
 
+Apskatot grafikus kuri var tikt veidoti, izmantojot piemērā doto vērtību x=2.05 ar intervālu no -500:500;
+
+
 
 
 
