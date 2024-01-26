@@ -3,7 +3,9 @@
 
 double mans_kossinus(double x){
 double a,S;
-int k=0;
+int k=0;  
+printf("Ievadiet X vertibu:");
+scanf("%lf",&x);
 
 a=pow(-1,k)*pow(x,k)/(1.);
 S=a;
